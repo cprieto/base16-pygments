@@ -9,7 +9,9 @@ Get started
 
 To use with Pygments:
 
-`pip install pygments-basesixteen`
+.. code-block: bash
+   
+   pip install git+https://github.com/cprieto/basesixteen-pygments.git
 
-`Styles <http://chriskempson.com/projects/base16/>`_
+Styles <http://chriskempson.com/projects/base16/>
 
