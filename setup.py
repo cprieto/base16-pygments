@@ -13,10 +13,10 @@ styles = []
 for filename in glob(path.join(base_dir, 'pygments_base16', 'base16-*.py')):
     style = path.splitext(path.basename(filename))[0]
     class_name = '{}Style'.format(capwords(style, '-').replace('-', ''))
-    styles.append('{}=pygments_base16:{}'.format(style, class_name))
+    styles.append('{}=pygments_base16:{}'.format(style.replace('base16', 'basesixteen'), class_name))
 
 setup(
-    name='pygments-base16',
+    name='pygments-basesixteen',
 
     version='1.0.3',
 
